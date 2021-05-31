@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<style>th,td{padding:10px 30px;} tr:first-child{background:#8600b3;color:#fff;}</style>
+	</head>
+	<body>
+		<div id="app">
+		  <h1>{{title}}</h1>
+		  <p>
+			<router-link to="/phone"><button>전화번호부</button></router-link>
+			<router-link to="/mail"><button>이메일관리</button></router-link>
+		  </p>
+		  <router-view></router-view>
+		</div>
+		<script src="https://unpkg.com/vue/dist/vue.js"></script>
+		<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+		<script src="router.js"></script>
+	</body>
+</html>
