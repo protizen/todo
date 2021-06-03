@@ -14,7 +14,7 @@ var todoStorage = {
 const app = new Vue({
     el: '#app',
     data: {
-		title: 'Vue.js With JinYoung!!!',
+		title: 'Vue.js With You!!!',
 		newTodo: '',
 		todos: [],
 	},
