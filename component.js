@@ -1,5 +1,5 @@
 
-    Vue.component('jinyoung', {
+    Vue.component('mycomp', {
         template: `
             <div>
                 <p>{{currentWord}}</p>
