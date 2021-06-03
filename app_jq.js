@@ -2,7 +2,7 @@ var data = [];
 
 $(document).ready(function(){
 	
-	$(".title").text("Vue.js With JinYoung!!!");
+	$(".title").text("Vue.js With You!!!");
 	
 	$(".frm").on("submit",function(e){
 		e.preventDefault();
